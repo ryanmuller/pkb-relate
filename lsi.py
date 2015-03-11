@@ -1,11 +1,8 @@
 from pyquery import PyQuery as pq
 import nltk
 import re
-from sets import Set
 import sqlite3
 import lxml
-import numpy as np
-import lda
 from simserver import SessionServer
 import types
 
