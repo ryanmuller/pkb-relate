@@ -105,3 +105,26 @@ blockquote p:first-child {
 .extract {
   margin-bottom: 2em;
 }
+
+.inserted_link {
+  font-size: smaller;
+  text-decoration: none;
+}
+
+.insert {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 16px;
+  width: 16px;
+  text-align: center;
+  display: inline-block;
+}
+
+#content_area {
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  min-height: 300px;
+  padding: 10px;
+}
+
+#resource_area { list-style-type: none; padding: 0; }

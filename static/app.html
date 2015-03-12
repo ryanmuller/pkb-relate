@@ -1,8 +1,17 @@
 <head>
   <script src="/assets/js/jquery-1.11.1.min.js"></script>
   <script src="/assets/js/underscore-min.js"></script>
+  <script src="/assets/js/rangy/rangy-core.min.js"></script>
+  <script src="/assets/js/rangy/rangy-classapplier.min.js"></script>
+  <script src="/assets/js/rangy/rangy-serializer.min.js"></script>
+  <script src="/assets/js/rangy/rangy-textrange.min.js"></script>
+  <script src="/assets/js/rangy/rangy-highlighter.min.js"></script>
+  <script src="/assets/js/testify.js/Testify.js"></script>
+  <script src="/assets/js/undo.js"></script>
+  <script src="/assets/js/Medium.js/medium.js"></script>
   <script src="/assets/js/pkb.js"></script>
   <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/medium.css">
 </head>
 
 <body>
@@ -10,17 +19,17 @@
     <header><h1>pkb</h1></header>
   </nav>
   <section id="page">
-    <h1></h1>
-    <div id="toc"></div>
     <div class="content">
-      <textarea id="main-content"></textarea>
+      <div id="content_area"></div>
+      <h2>References</h2>
+      <ol id="reference_area"></ol>
     </div>
   </section>
   <section id="cards">
-    <h1></h1>
-    <button id="goRelate">related</button>
+    <button id="get_related">related</button>
+    <input id="search_text" type="text"><button id="do_search">search</button>
     <div class="options"></div>
-    <ul class="content"></ul>
+    <ul id="resource_area" class="content"></ul>
   </section>
   <footer>
 </footer>

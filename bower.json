@@ -1,0 +1,26 @@
+{
+  "name": "pkb_relate",
+  "version": "0.0.1",
+  "dependencies": {
+    "medium.js": "2.0.0-alpha"
+  },
+  "install": {
+    "path": {
+      "js": "static/js/{name}",
+      "css": "static/css/{name}"
+    }
+  },
+  "homepage": "https://github.com/ryanmuller/pkb-relate",
+  "authors": [
+    "Ryan Muller <cognitionmachine@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
